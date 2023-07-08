@@ -1,0 +1,12 @@
+{
+  "name": "workspace-with-templates-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "pnpm:devPreinstall": "pnpm --ignore-scripts --filter=meta-updater install && ./.meta-updater/node_modules/.bin/meta-updater"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
